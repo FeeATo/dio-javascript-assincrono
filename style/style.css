@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+	margin: 0;
+	background-color: #f5e4f4;
+}
+
+img {
+	max-height: 400px;
+    max-width: 600px;
+	border-radius: 30px;    
+}
+
+main {
+	text-align: center;
+}
+
+button {
+	border: 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 16px;
+	background: orangered;
+	color: white;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+	background: orange;
+}
